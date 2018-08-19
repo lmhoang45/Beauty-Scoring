@@ -18,7 +18,7 @@ Barack Obama as input:  Male - European - 3.27/5
 ![apt get](https://github.com/lmhoang45/Beauty-Scoring/blob/master/Screenshot%20from%202018-08-19%2020-40-53.png)    
 
 # Prerequisites
-Required libraries and frameworks: opencv - numpy - skimage  
+Required libraries and frameworks: opencv - numpy - skimage - tensorflow - keras.
 # Note
 The used model is DenseNet121 (https://keras.io/applications/#densenet).  
 The model is trained in Google Colab and then saved in drive under the .h5 file type.
