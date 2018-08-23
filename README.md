@@ -1,7 +1,7 @@
 # Face classification and beauty scoring
 The project's aim is to build a human face classification model using Neural Network. The input face would be classified 
 into one of the four classes: Asian Male - Asian Female - European Male - European Female. The model would then rate the
-face's beauty score in a value range of [1; 5] with 1 is the less beautifulness and 5 is highest.  
+face's beauty score in a value range of [1; 5] with 1 is the lowest beautifulness and 5 is highest.  
 Code written in Python using Keras.  The dataset used is the SCUT-FBP5500 Database (https://github.com/HCIILAB/SCUT-FBP5500-Database-Release)  
 The trained model was uploaded under the name model_31_July.h5  
 Run the file webcam.py and the program would automatically detect any face in front of the webcam (and draw a blue retangle around the face) 
@@ -21,4 +21,4 @@ Barack Obama as input:  Male - European - 3.27/5
 Required libraries and frameworks: opencv - numpy - skimage - tensorflow - keras.
 # Note
 The used model is DenseNet121 (https://keras.io/applications/#densenet).  
-The model is trained in Google Colab and then saved in drive under the .h5 file type.
+The model is trained in Google Colab and then saved in Drive under the .h5 file type.
